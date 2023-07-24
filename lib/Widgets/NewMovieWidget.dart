@@ -35,7 +35,9 @@ class NewMovieWidget extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 10),
                   child: GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.pushNamed(context, "moviePage");
+                    },
                     child: Container(
                         width: 180,
                         height: 300,

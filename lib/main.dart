@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'Page/CategoryPage.dart';
+import 'Page/MoviePage.dart';
 import 'Page/homepage.dart';
 
 void main() {
@@ -33,6 +34,7 @@ class _HomeState extends State<Home> {
       routes: {
         "/": (context) => HomePage(),
         "CategoryPage": (context) => CategoryPage(),
+        "moviePage": (context) => MoviePage(),
       },
     );
   }
